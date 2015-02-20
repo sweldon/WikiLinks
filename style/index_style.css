@@ -1,0 +1,91 @@
+	body
+	{
+		font-size: 30px;
+	}
+	#pageform
+	{
+		background:#d3d3d3;
+		width:900px;
+		padding-bottom:20px;
+		padding-top:30px;
+		margin-top:100px;
+		font-size: 30px;
+	}
+	#recordstable 
+	{
+	width:880px;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+	
+	}
+	#recordstable tr:nth-child(odd)
+	{
+		padding: 15px;
+		background-color: #9DAAB2;
+	}
+	tr
+	{
+		text-align: left;
+	}
+	td, th
+	{
+		font-size: 18px;
+		padding:5px;
+	}
+
+	#pageform input[type="text"], input, select
+	{
+    font-size:24px;
+	}
+	input
+	{
+		border:0;
+	}
+	input:focus
+	{
+		outline: 0;
+	}
+	#Send
+	{
+		background-color: #9DAAB2;
+	}
+
+	#links
+	{
+
+		border: 2px dashed grey;
+		width: 300px;
+		padding:5px;
+	}
+	#chosen
+	{
+		border: 2px dashed grey;
+		z-index:10;
+		width: 300px;
+		padding:5px;
+	}
+
+
+	img
+	{
+		width:40px;
+		height:40px;
+	}		
+	#input-error
+	{
+		text-align: center;
+		background:#ff7f7f;
+		width:970px;
+		padding:20px;
+		font-size: 18px;
+	}
+	#records
+	{
+		height:400px;
+		overflow:auto;
+		width:900px;
+		padding:10px;
+		margin-top:20px;
+		font-size: 30px;
+	}
