@@ -5,6 +5,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="scripts/basic.js"></script>
 	<script src="scripts/emptyInput.js"></script>
+	<script src="scripts/imageChange.js"></script>
 	<link rel="stylesheet" type="text/css" href="style/index_style.css">
 </head>
 
@@ -39,15 +40,15 @@ echo "<center><div id='input-error'>Oops! No specific page exists for '".$broken
 			<input type="text" id="startpageid" name="startpage" required></input> &#10142;
 			<input type="text" id="endpageid" name="endpage" required></input><br /><br />
 
-			<select>
+			<select id="realm">
 				<option>General (Wikipedia)</option>
 				<option>Game of Thrones (Soon)</option>
 				<option>More... (Soon)</option>
 			</select>
 
 			<br /><br />
-
-			<input type="submit" value="Find Path" id="Send"></input>
+			<button type="submit" class="button">Find Path</button>
+			<!--<input class="btn" type="submit" value="Find Path" id="Send"></input>-->
 		</form>
 		<script>
 
