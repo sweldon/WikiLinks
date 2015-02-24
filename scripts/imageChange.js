@@ -12,7 +12,8 @@ if(realm == "General (Wikipedia)")
 }
 else if(realm == "Game of Thrones (Soon)")
 {
-	$('#pageform').css("background-image", "url(images/got.jpg)");  
+	$('#pageform').css("background-image", "url(images/got.jpg)"); 
+
 }
 else
 {
